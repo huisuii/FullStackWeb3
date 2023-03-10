@@ -40,7 +40,7 @@ contract SimpleStorage {
     }
 
     uint256[] public favoriteNumberList;
-    People[3] public people;
+    People[] public people;
 
 
     // calldata, memory, storage: arrays, structs, mappings
